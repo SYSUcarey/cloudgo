@@ -383,31 +383,47 @@ Percentage of the requests served within a certain time (ms)
 #### 命令参数
 
 >-n 执行的请求数量
+>
 >-c 并发请求个数
+>
 >-t 测试所进行的最大秒数
+>
 >-p 包含了需要POST的数据的文件
+>
 >-T POST数据所使用的Content-type头信息
+>
 >-k 启用HTTP KeepAlive功能，即在一个HTTP会话中执行多个请求，默认时，不启用KeepAlive功能
 
 #### 结果参数
 
 > Server Software:		服务器软件版本
+>
 > Server Hostname:		请求的URL
+>
 > Server Port:                	请求的端口号
 >
 > Document Path:        	请求的服务器的路径
+>
 > Document Length:       	页面长度   单位是字节
 >
 > Concurrency Level:            	并发数
+>
 > Time taken for tests:   		一共使用了的时间  
+>
 > Complete requests:           	总共请求的次数
+>
 > Failed requests:   			失败的请求次数     
 >
 > Total transferred:   		总共传输的字节数  http头信息
+>
 > HTML transferred:    		实际页面传递的字节数
+>
 > Requests per second:    	每秒多少个请求
+>
 > Time per request:   		平均每个用户等待多长时间
+>
 > Time per request: 		服务器平均用多长时间处理
+>
 > Transfer rate: 			传输速率
 >
 > Connection Times: 		传输时间统计
